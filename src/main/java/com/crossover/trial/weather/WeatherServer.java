@@ -23,6 +23,8 @@ import org.glassfish.jersey.server.ResourceConfig;
  */
 public class WeatherServer {
 
+	
+	
     private static final String BASE_URL = "http://localhost:9090/";
 
     public static void main(String[] args1) {
