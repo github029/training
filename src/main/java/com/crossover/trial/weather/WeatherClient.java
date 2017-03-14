@@ -13,6 +13,16 @@ import com.crossover.trial.weather.model.DataPoint;
  * can look at WeatherClient to understand API semantics. This existing client
  * populates the REST endpoint with dummy data useful for testing.
  *US12 for task TA54321 with status: in progress; actuals: 3 hours, to do: 15
+ *Actuals: 1.5, ToDo: .5, 
+ *
+ *Template: <StoryDefectNumber>: TId: <TaskNumber>, status: <WorkStatus>, Actuals: <ActualEfforts>, ToDo: <ToDOHours>, <Comments>
+•e.g. •US5489: TId: TA15876, status: In-progress, Actuals: 1.5, ToDo: .5, added toggle for new functionality
+
+•If we don’t remember the Task Id i.e. TID then we can put Task Index [TI] instead to update the task details. In following example it will update the 2nd task of US5489. •US5489: TI: 2, status: In-progress, Actuals: 1.5, ToDo: .5, added toggle for new functionality
+
+•When we mark status of the task as completed the ToDo automatically becomes 0
+•The Actuals, Status, ToDo are all optional and we only need to mention those which we want to update
+
   * @author code test administrator
  */
 public class WeatherClient {
