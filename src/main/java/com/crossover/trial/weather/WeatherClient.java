@@ -12,7 +12,8 @@ import com.crossover.trial.weather.model.DataPoint;
  * A reference implementation for the weather client. Consumers of the REST API
  * can look at WeatherClient to understand API semantics. This existing client
  * populates the REST endpoint with dummy data useful for testing.
- *
+ *US12 for task TA54321 with status: in progress; actuals: 3 hours, to do: 15
+
  * @author code test administrator
  */
 public class WeatherClient {
