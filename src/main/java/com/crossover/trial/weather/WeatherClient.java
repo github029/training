@@ -15,6 +15,7 @@ import com.crossover.trial.weather.model.DataPoint;
  *US12 for task TA54321 with status: in progress; actuals: 3 hours, to do: 15
  
  
+ 
  * @author code test administrator
  */
 public class WeatherClient {
