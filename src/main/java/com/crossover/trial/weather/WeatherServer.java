@@ -25,7 +25,7 @@ public class WeatherServer {
 
     private static final String BASE_URL = "http://localhost:9090/";
 
-    public static void main(String[] args) {
+    public static void main(String[] args1) {
         try {
             System.out.println("Starting Weather App local testing server: " + BASE_URL);
             System.out.println("Not for production use");
