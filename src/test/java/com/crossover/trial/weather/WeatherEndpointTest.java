@@ -39,6 +39,8 @@ public class WeatherEndpointTest {
         _update.updateWeather("BOS", "wind", _gson.toJson(_dp));
         _query.weather("BOS", "0").getEntity();
     }
+    
+    
 
     @Test
     public void testPing() throws Exception {
